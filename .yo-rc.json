@@ -1,0 +1,11 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Improve minification while improving readability",
+    "packageVersion": "0.0.0",
+    "revealTheme": "blood",
+    "useSass": false,
+    "deployToGithubPages": true,
+    "githubUsername": "emileber",
+    "githubRepository": "js-minification-techniques"
+  }
+}
