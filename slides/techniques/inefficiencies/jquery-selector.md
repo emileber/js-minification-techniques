@@ -4,6 +4,7 @@ Another thing that is commonly repeated (and overly inefficient) is jQuery selec
 
 ```
 $('#my-div').toggleClass('lol');
+/*...*/
 $('#my-div').append("<article>So HTML5</article>");
 ```
 
