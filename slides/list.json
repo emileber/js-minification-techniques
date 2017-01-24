@@ -3,12 +3,36 @@
     "summary.md",
     "goals.md", [
         "techniques.md", {
-            "filename": "techniques/evil.md",
+            "filename": "techniques/evil/eval.md",
             "attr": {
                 "data-background": "#560202"
             }
-        },
-        "techniques/lazy-init-function.md"
+        }, {
+            "filename": "techniques/evil/object-literal.md",
+            "attr": {
+                "data-background": "#116511"
+            }
+        }, {
+            "filename": "techniques/micro/avoid-micro.md",
+            "attr": {
+                "data-background": "#560202"
+            }
+        }, {
+            "filename": "techniques/micro/do-micro.md",
+            "attr": {
+                "data-background": "#116511"
+            }
+        }, {
+            "filename": "techniques/property/repeated-property.md",
+            "attr": {
+                "data-background": "#560202"
+            }
+        }, {
+            "filename": "techniques/property/improved-property.md",
+            "attr": {
+                "data-background": "#116511"
+            }
+        }
     ]
 
 ]
