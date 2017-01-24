@@ -1,3 +1,14 @@
 [
-    "index.md"
+    "index.md",
+    "summary.md",
+    "goals.md", [
+        "techniques.md", {
+            "filename": "techniques/evil.md",
+            "attr": {
+                "data-background": "#560202"
+            }
+        },
+        "techniques/lazy-init-function.md"
+    ]
+
 ]
