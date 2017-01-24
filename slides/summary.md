@@ -6,6 +6,4 @@
   - What to **avoid**
   - What to **do instead**
 
-- _Possible_ improvements with examples
-
-- Does it really save space?
+- Does it really saves space?

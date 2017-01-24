@@ -2,7 +2,8 @@
     "index.md",
     "summary.md",
     "goals.md", [
-        "techniques.md", {
+        "techniques.md",
+        "techniques/more-lines.md", {
             "filename": "techniques/evil/eval.md",
             "attr": {
                 "data-background": "#560202"
@@ -32,7 +33,27 @@
             "attr": {
                 "data-background": "#116511"
             }
+        }, {
+            "filename": "techniques/inefficiencies/jquery-selector.md",
+            "attr": {
+                "data-background": "#560202"
+            }
+        }, {
+            "filename": "techniques/inefficiencies/caching-jquery.md",
+            "attr": {
+                "data-background": "#116511"
+            }
+        }, {
+            "filename": "techniques/library/module-scope.md",
+            "attr": {
+                "data-background": "#560202"
+            }
+        }, {
+            "filename": "techniques/library/module-optimizations.md",
+            "attr": {
+                "data-background": "#116511"
+            }
         }
-    ]
-
+    ],
+    "save-space.md"
 ]
