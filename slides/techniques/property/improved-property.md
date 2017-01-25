@@ -1,6 +1,6 @@
 ## Improved property names
 
-Any property name used two or more times should be stored into a local variable.
+Any property name used more than one time should be stored into a local variable.
 
 ```
 toggleFeedback: function() {
