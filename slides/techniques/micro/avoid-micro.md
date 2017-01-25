@@ -1,6 +1,6 @@
 ## Useless verbosity
 
-JavaScript let's you write what you want without complaining and won't suggest improvements.
+JavaScript lets you write what you want without complaining and won't suggest improvements.
 
 So you might come across:
 
