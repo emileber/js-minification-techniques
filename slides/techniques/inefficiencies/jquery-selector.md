@@ -7,4 +7,4 @@ $('#my-div').toggleClass('lol');
 $('#my-div').append("<article>So HTML5</article>");
 ```
 
-Each times `$('#my-div')`, jQuery traverse the DOM tree to find `<div id="my-div">`.
+Each time `$('#my-div')`, jQuery traverses the DOM tree to find `<div id="my-div">`.
