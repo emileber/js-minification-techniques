@@ -1,3 +1,0 @@
-## Results
-
-...to come.

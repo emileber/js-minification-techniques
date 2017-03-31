@@ -13,11 +13,9 @@ a = b * c;
 x = a || b && c; // && precedence already greater than ||
 
 function(options) {
-    options = options || {};
-    /*...*/
-    return options.something; // if you don't care about returning the raw value
+    return (options || {}).something; // if you don't care about returning the raw value
     // if you want to strictly return a boolean
-    // return Boolean(options.something);
+    // return Boolean((options || {}).something);
 }
 
 ```

@@ -1,13 +1,13 @@
-## Module optimizations
+## Module scope
 
-Like mentionned before, everything used twice or more can be stored into a local variable.
+A common way to avoid polluting the global scope is to use [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression). Everything used twice or more should be stored into a local variable.
 
 
 ```
-(function(_, Backbone) {
+var MyLib = MyLib || {};
+    
+(function(_, Backbone, Component) {
     var _extend = _.extend, // function from library
-        MyLib = {},
-        Component = MyLib.Component = {}, // sub-module within our library
     
         Model = Component.Model = Backbone.Model.extend({
             filterData: function(predicate, defaults){
@@ -21,7 +21,12 @@ Like mentionned before, everything used twice or more can be stored into a local
             }
         });
     /* ... */
-    return MyLib;
+    return Component;
     
-})(_, Backbone);
+})(
+    // inject dependencies
+    _, Backbone, 
+    MyLib.Component || (MyLib.Component = {})
+);
 ```
+
