@@ -1,4 +1,4 @@
-.reveal p code {
+.reveal p code, .reveal li code {
     background: rgba(255, 255, 255, 0.13);
     padding: 0 0.15em;
 }

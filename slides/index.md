@@ -2,5 +2,4 @@
 ## Improve JS minification while improving readability
 
 **Émile Bergeron**  
-Analyst Programmer  
-L'entreprise TLM
+<small>Web Developer<br>[Ellipse Synergie](http://www.ellipse-synergie.com/)</small>
